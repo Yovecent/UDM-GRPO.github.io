@@ -42,46 +42,6 @@
 </head>
 <body>
 
-<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</nav> -->
-
 
 <section class="hero">
   <div class="hero-body">
@@ -215,7 +175,7 @@
              diffusion forward process better aligns probability paths with the pretraining distribution. 
              Additionally, we introduce two strategies, Reduced-Step and CFG-Free, to further improve training 
              efficiency. <strong>UDM-GRPO</strong>  significantly improves base model performance across multiple T2I tasks. 
-             Notably, GenEval accuracy improves from 69 to 96 and PickScore increases from 20.46 to 23.81,
+             Notably, GenEval accuracy improves from 69% to 96% and PickScore increases from 20.46 to 23.81,
               achieving state-of-the-art performance in both continuous and discrete settings. 
               On the OCR benchmark, accuracy improves from 8% to 57%, further validating the effectiveness
                and generalization ability of our method.
@@ -233,7 +193,7 @@
 
     <!-- Problem Analyse. -->
     <h2 class="title is-3 has-text-centered">Problem Analyse</h2>
-    <div class="content">
+    <div class="content" style="margin-bottom: 2.5rem;">
       <figure>
         <img src="./static/images/system_anlayse.png" alt="Problem analysis figure" style="width: 100%; height: auto;">
       </figure>
@@ -245,7 +205,7 @@
 
     <!-- Visual Results. -->
     <h2 class="title is-3 has-text-centered">Visual Results</h2>
-    <div class="content">
+    <div class="content" style="margin-bottom: 2.5rem;">
       <figure>
         <img src="./static/images/GenEval_result.png" alt="GenEval qualitative comparison results" style="width: 100%; height: auto;">
       </figure>
@@ -253,8 +213,8 @@
         Qualitative Comparison. We evaluate our model against SD3.5-L, Flux.1 Dev and URSA.
       </p>
 
-      <figure>
-        <img src="./static/images/training_process.png" alt="Training process visualization" style="width: 100%; height: auto;">
+      <figure style="text-align: center;">
+        <img src="./static/images/training_process.png" alt="Training process visualization" style="width: 85%; height: auto;">
       </figure>
       <p class="has-text-centered">
         We visualize the generated samples across successive training iterations during the optimization.
@@ -264,7 +224,7 @@
 
 
     <!-- Quantitative Results. -->
-    <h2 class="title is-3 has-text-centered">Quantitative Results</h2>
+    <h2 class="title is-3 has-text-centered" style="margin-top: 1.5rem;">Quantitative Results</h2>
     <div class="content">
       <figure>
         <img src="./static/images/GenEval_quanlity.png" alt="GenEval quantitative comparison results" style="width: 100%; height: auto;">
@@ -273,8 +233,8 @@
         Comparison result on GenEval.
       </p>
 
-      <figure>
-        <img src="./static/images/three_task_quanlity.png" alt="Comparison results on GenEval, PickScore, and OCR" style="width: 100%; height: auto;">
+      <figure style="text-align: center;">
+        <img src="./static/images/three_task_quanlity.png" alt="Comparison results on GenEval, PickScore, and OCR" style="width: 85%; height: auto;">
       </figure>
       <p class="has-text-centered">
         Comparison results on GenEval, PickScore, and OCR.
