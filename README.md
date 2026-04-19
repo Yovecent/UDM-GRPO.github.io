@@ -1,6 +1,6 @@
-# Nerfies
+# UDM-GRPO
 
-This is the repository that contains source code for the [UDM-GRPO website](https://github.com/Yovecent/UDM-GRPO).
+This is the repository that contains source code for the [UDM-GRPO website](https://yovecent.github.io/UDM-GRPO.github.io/).
 
 If you find Nerfies useful for your work please cite:
 ```
