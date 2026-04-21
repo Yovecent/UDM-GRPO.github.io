@@ -2,13 +2,13 @@
 
 This is the repository that contains source code for the [UDM-GRPO website](https://yovecent.github.io/UDM-GRPO.github.io/).
 
-If you find Nerfies useful for your work please cite:
+If you find UDM-GRPO useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{wang2026udmgrpo,
+  title={UDM-GRPO: Stable and Efficient Group Relative Policy Optimization for Uniform Discrete Diffusion Models},
+  author={Wang, Jiaqi and Deng, Haoge and Pan, Ting and Liu, Yang and Wang, Chengyuan and Zhang, Fan and Qi, Yonggang and Wang, Xinlong},
+  journal={arXiv preprint arXiv:2604.18518 },
+  year={2026}
 }
 ```
 
